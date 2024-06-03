@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect4Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<script src="index.js" >
+
+for (let index = 1; index <= 36; index++) {
+        let id = index.toString();
+        document.getElementById(id).style.backgroundColor = "gray";
+        
+    }
+</script>
+<body>
+    <h1 class="welcomeMsg" > Welcome to Connect4Game</h1>
+    <p class="description" > Connect 4 ball with a same color and win the game</p>
+    <p id="player">Player1 has to play , color is blue</p>
+
+    <div class="container" id="container">
+
+        <table>
+<tr>
+    <td id="1" onclick="changeColor(id)" ></td>
+    <td id="2" onclick="changeColor(id)" ></td>
+    <td id="3" onclick="changeColor(id)" ></td>
+    <td id="4" onclick="changeColor(id)"></td>
+    <td id="5" onclick="changeColor(id)" ></td>
+    <td id="6" onclick="changeColor(id)" ></td>
+</tr>
+<tr>
+    <td id="7" onclick="changeColor(id)" ></td>
+    <td id="8" onclick="changeColor(id)" ></td>
+    <td id="9" onclick="changeColor(id)" ></td>
+    <td id="10" onclick="changeColor(id)" ></td>
+    <td id="11" onclick="changeColor(id)" ></td>
+    <td id="12" onclick="changeColor(id)" ></td>
+</tr>
+<tr>
+    <td id="13" onclick="changeColor(id)" ></td>
+    <td id="14" onclick="changeColor(id)" ></td>
+    <td id="15" onclick="changeColor(id)" ></td>
+    <td id="16" onclick="changeColor(id)" ></td>
+    <td id="17" onclick="changeColor(id)" ></td>
+    <td id="18" onclick="changeColor(id)" ></td>
+</tr>
+<tr>
+    <td id="19" onclick="changeColor(id)" ></td>
+    <td id="20" onclick="changeColor(id)" ></td>
+    <td id="21" onclick="changeColor(id)" ></td>
+    <td id="22" onclick="changeColor(id)" ></td>
+    <td id="23" onclick="changeColor(id)" ></td>
+    <td id="24" onclick="changeColor(id)" ></td>
+</tr>
+<tr>
+    <td id="25" onclick="changeColor(id)" ></td>
+    <td id="26" onclick="changeColor(id)" ></td>
+    <td id="27" onclick="changeColor(id)" ></td>
+    <td id="28" onclick="changeColor(id)" ></td>
+    <td id="29" onclick="changeColor(id)" ></td>
+    <td id="30" onclick="changeColor(id)" ></td>
+</tr>
+<tr>
+    <td id="31" onclick="changeColor(id)" ></td>
+    <td id="32" onclick="changeColor(id)" ></td>
+    <td id="33" onclick="changeColor(id)" ></td>
+    <td id="34" onclick="changeColor(id)" ></td>
+    <td id="35" onclick="changeColor(id)" ></td>
+    <td id="36" onclick="changeColor(id)" ></td>
+</tr>
+
+        </table>
+         
+    </div>
+</body>
+<script>
+    var color = "rgb(255, 0, 0)";
+</script>
+</html>
